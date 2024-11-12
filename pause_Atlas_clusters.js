@@ -1,6 +1,7 @@
 // Meant to be an Atlas function within Trigger to automatically pause all dedicated tier clusters on the project.
 // Currently leverages Atlas Admin API Keys
 // Recommended to use Trigger secrets: https://www.mongodb.com/docs/atlas/atlas-ui/triggers/functions/secrets/
+// Uses Scheduled Triggers: https://www.mongodb.com/docs/atlas/atlas-ui/triggers/scheduled-triggers/
 
 exports = async function() {
   const username = await context.values.get("AtlasPublicKey");
