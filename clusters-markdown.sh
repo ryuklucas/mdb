@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# List all clusters and projects for a given Atlas organization that has clusters in a certain MongoDB version - hard-coded for 5.0 line 42
+
 # Check if orgId is provided
 if [ -z "$1" ]; then
     echo "Usage: $0 <orgId>"
