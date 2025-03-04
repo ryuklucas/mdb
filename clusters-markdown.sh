@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # List all clusters and projects for a given Atlas organization that has clusters in a certain MongoDB version
+# Run: /path/to/file.sh 657b243c53a39a2affake973 6
 
 # Check if orgId is provided
 if [ -z "$1" "$2" ]; then
